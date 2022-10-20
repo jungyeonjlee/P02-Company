@@ -1,0 +1,32 @@
+body {
+  font-family: 'Neue Montreal', 'Space Mono', sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'GT Flexa';
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: 'Space Mono';
+  font-size: 0.5625em;
+  font-style: normal;
+  font-weight: 400;
+}
