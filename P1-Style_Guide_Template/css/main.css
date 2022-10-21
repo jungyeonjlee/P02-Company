@@ -1,0 +1,218 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Neue Montreal', 'Space Mono', sans-serif;
+  padding: 2rem;
+}
+
+.button-nav{
+  background-color: red;
+}
+
+.element {
+  margin-top: 40px;
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+  font-family: 'GT Flexa';
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: 'Space Mono';
+  font-size: 0.5625em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.h3-product-listing {
+  margin-top: 4px;
+}
+
+.h3-shipping-address {
+  margin-top: 0px;
+}
+
+.h5-product-listing {
+  margin-bottom: 4px;
+}
+
+.h5-checkout-cart {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 0;
+  width:60%;
+  font-size: 0.9em;
+  line-height: 145%;
+}
+
+.a-in-text-link {
+  text-decoration: none;
+  color: #6066F5;
+}
+
+.p-product-listing {
+  width:25%;
+}
+
+.p-statement {
+  font-size: 2.5em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+form {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 48px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #6066F5;
+  border: none;
+  color: white;
+  margin-top: 32px;
+  width: 23.75em;
+  height: 4em;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'PP Neue Montreal';
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.15s;
+  
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(21, 20, 26);
+  box-shadow: 3px 2px 6px #e2e2e2;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+nav {
+  margin-bottom: 16px;
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 1rem;
+  color: rgb(21, 20, 26);
+  background-color: #ffffff;
+  font-size: 1.25em;
+  text-decoration: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+
+/* Office hours w/ Enneas */
+.button-nav:hover, .button-nav:focus {
+  background-color: #6066F5;
+  color: #ffffff;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  font-style: normal;
+}
+
+input[type=text] {
+  border: none;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  border-radius: 3px;
+  padding: 16px;
+  width: 280px;
+}
+
+input[type=text]:focus {
+  outline-color: rgb(168, 168, 168);
+  box-shadow: none;
+}
+
+input[type=text]:hover {
+  background: rgb(250, 250, 250);
+}
+
+.label-text-input {
+display: block;
+margin-top: 30px;
+margin-bottom: 8px;
+color: rgb(59, 59, 59);
+}
+
+img {
+  transition: 0.15s;
+}
+
+.img-product-listing {
+  width: 100%;
+}
+
+.img-checkout-cart {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.img-as-a-link {
+  width: 40%;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* IN-TEXT-LINK and IMAGE-AS-A-LINK found on w3schools.com */
+
+a:hover, a:focus {
+font-style: italic;
+}
+
+.img-product-listing:hover, .img-product-listing:focus {
+  opacity: 0.9;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
