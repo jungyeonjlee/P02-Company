@@ -33,3 +33,13 @@
   width: 15em;
   margin-right: 32px;
 }
+
+/* taken from past assaignment */
+
+.grid.eight-column{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2rem;
+
+
+}
