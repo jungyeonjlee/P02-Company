@@ -13,21 +13,28 @@ body {
 
 .brandName{
 grid-column-start: 1;
-grid-column-end: 4;
+grid-column-end: 5;
 place-self: center;
 
 
 }
 
 #navButton1{
-  grid-column-start: 7;
+  grid-column-start: 6;
   grid-column-end: 8;
 }
 
 #navButton2{
   grid-column-start: 8;
-  grid-column-end: 9;
+  grid-column-end: 10;
 }
+
+#navButton3{
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+
+
 
 /* header{
   display: flex;
@@ -65,6 +72,110 @@ place-self: center;
 
 
 /* navbar Styling end  */
+
+/* productlisting style  */
+
+.new_section{
+  margin-top: 2rem;
+}
+
+.description{
+  grid-column: 1/5;
+}
+.img{
+  width: 100%;
+  
+}
+
+.img1{
+  grid-column-start:1 ;
+  grid-column-end:4 ;
+  
+}
+
+.img2{
+
+  grid-column-start: 4;
+  grid-column-end: 7;
+
+}
+
+.img3{
+
+  grid-column-start:7 ;
+  grid-column-end: 10;
+
+  
+}
+
+.img4{
+
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+
+.mini_img{
+  width: 100%;
+}
+
+.mini_img1{
+  grid-column: 1/ span 2;
+}
+
+.mini_img2{
+  grid-column: 3/ span 2;
+}
+
+.mini_img3{
+  grid-column: 5/ span 2;
+}
+
+.mini_img4{
+  grid-column: 7/ span 2;
+}
+
+.mini_img5{
+  grid-column: 9/ span 2;
+}
+
+.mini_img6{
+  grid-column: 11/ span 2;
+}
+
+
+
+.filter_button{
+
+  display: inline-block;
+  padding: 1rem;
+  color: rgb(21, 20, 26);
+  background-color: #ffffff;
+  font-size: 1.25em;
+  text-decoration: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+  font-weight: bold;
+  box-shadow: 3px 2px 6px #e2e2e2; 
+  text-align: center;
+
+}
+
+.button1{
+grid-column: 1 / span 4 ;
+}
+
+.button2{
+  grid-column: 5 / span 4 ;
+
+}
+.button3{
+  grid-column:  9 / span 4 ;
+
+}
+
+
+/* productlisting style end  */
+
 
 
 .element {

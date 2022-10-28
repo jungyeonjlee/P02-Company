@@ -36,9 +36,9 @@
 
 /* taken from past assaignment */
 
-.grid.eight-column{
+.grid.twelve-column{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 2rem;
 
 
