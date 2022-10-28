@@ -7,11 +7,12 @@
 .container-product-listing {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .block-product-listing {
-  width: 26.3em;
-  margin-right: 32px;
+  width: 49%;
+  /* margin-right: 32px; */
 }
 
 .main-container-checkout-cart {
@@ -42,4 +43,11 @@
   grid-column-gap: 2rem;
 
 
+}
+
+@media(min-width:77.875rem){
+  .block-product-listing {
+    width: 32%;
+    /* margin-right: 32px; */
+  }
 }
