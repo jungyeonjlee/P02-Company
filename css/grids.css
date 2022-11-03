@@ -60,6 +60,15 @@
 
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.block-footer{
+  width: 33.333%;
+}
+
 @media(max-width:77.875rem){
   .block-product-listing {
     width: 32%;
