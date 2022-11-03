@@ -1,0 +1,36 @@
+/* found on GRIDS COMPLETED IAT 339 lecture */
+@font-face {
+	font-family: 'Neue Montreal';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/PPNeueMontreal-Book.otf');
+}
+
+@font-face {
+	font-family: 'Neue Montreal';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/PPNeueMontreal-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'GT Flexa';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/GT-Flexa-Bold-Trial.otf');
+}
+
+@font-face {
+	font-family: 'GT Flexa';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/GT-Flexa-Light-Trial.otf');
+}
+

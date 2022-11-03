@@ -1,0 +1,117 @@
+/* CSS Grids for P01 Style Guide */
+/* shift alt i */
+*{
+  box-sizing: border-box;
+}
+
+.container-product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.block-product-listing {
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.block-img-filter{
+  width:14.66666%;
+  height: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.block-filter-button{
+  width: 31.3333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  /* justify-content: center; */
+  
+}
+
+.main-container-checkout-cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+.container-checkout-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  border-top: 1px solid #F5BF6C;
+  padding-top: 16px;
+}
+
+.block-checkout-cart {
+  width: 15em;
+  margin-right: 32px;
+}
+
+/* product description */
+.container-product-description-img-set{
+  display: flex;
+  flex-wrap: wrap;
+  width: 66.66666%;
+}
+
+.container-product-description{
+  display: flex;
+}
+
+.container-product-description-text-set{
+  display: flex;
+  flex-wrap: wrap;
+  width: 33.33333%;
+}
+
+.block-product-description-text-set{
+  width: 90%;
+  margin-left: 9%;
+  margin-right: 1%;
+}
+
+.block-product-description-img{
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+}
+
+/* taken from past assaignment */
+
+.grid.twelve-column{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 2rem;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.block-footer{
+  width: 33.333%;
+}
+
+@media(max-width:77.875rem){
+  .block-product-listing {
+    width: 31.333333%;
+    /* margin-right: 32px; */
+    margin-left: 1%;
+  margin-right: 1%;
+  }
+
+  .block-img-filter{
+    width: 31.3333%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: auto;
+
+  }
+
+}

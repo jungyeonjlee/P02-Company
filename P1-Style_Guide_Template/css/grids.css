@@ -1,0 +1,52 @@
+/* CSS Grids for P01 Style Guide */
+
+*{
+  box-sizing: border-box;
+}
+
+.container-product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block-product-listing {
+  width: 49%;
+  /* margin-right: 32px; */
+}
+
+.main-container-checkout-cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+.container-checkout-cart {
+  display: flex;
+  margin-top: 16px;
+  border-top: 1px solid #F5BF6C;
+  padding-top: 16px;
+}
+
+.block-checkout-cart {
+  width: 15em;
+  margin-right: 32px;
+}
+
+/* taken from past assaignment */
+
+.grid.eight-column{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2rem;
+
+
+}
+
+@media(min-width:77.875rem){
+  .block-product-listing {
+    width: 32%;
+    /* margin-right: 32px; */
+  }
+}

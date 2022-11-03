@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P02 Company - GORE-TEX </title>
+
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header class="grid twelve-column">
+
+    <section class="brandName">    
+      <h1> <a href="index.html"><img src="pictures/logo.png" alt=""></a> </h1>
+  </section>
+  
+    <!-- <nav  id="navButton1"> -->
+        
+      <a class="button-nav" id="navButton1" href="productList.html">Shop</a>
+      <a class="button-nav" id="navButton2" href="aboutUs.html">About us</a>
+      <a class="button-nav" id="navButton3" href="checkoutCart.html">Checkout Cart</a>
+
+    <!-- </nav> -->
+  </header>
+
+
+  <h2>Checkout Cart</h2>
+
+  <div class="main-container-checkout-cart">
+    <div class="main-block-checkout-cart">
+      <div class="container-checkout-cart">
+        <div class="block-checkout-cart">
+          <img class="img-checkout-cart" src="product-listing-pictures/Alpha-SV-Jacket-Black-Womens.png"
+            alt="Women's Alpine Jacket">
+        </div>
+        <div class="block-checkout-cart">
+          <h5 class="h5-checkout-cart">ARC'TERYX</h5>
+          <h3 class="h3-product-listing">Alpha SV Jacket</h3>
+          <h4>$950</h4>
+        </div>
+      </div>
+      <div class="container-checkout-cart">
+        <div class="block-checkout-cart">
+          <img class="img-checkout-cart" src="product-listing-pictures/Beta-AR-Jacket-Lucent-Mens.png"
+            alt="Men's Ski Pants">
+        </div>
+        <div class="block-checkout-cart">
+          <h5 class="h5-checkout-cart">ARC'TERYX</h5>
+          <h3 class="h3-product-listing">Beta AR Jacket</h3>
+          <h4>$750</h4>
+        </div>
+      </div>
+    </div>
+    <div class="main-block-checkout-cart">
+      <form>
+        <h3 class="h3-shipping-address">Shipping Address</h3>
+        <label class="label-text-input" for="firstname">First name:</label>
+        <input type="text" id="first-name" name="first-name">
+        <label class="label-text-input" for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last-name"><br>
+        <label class="label-text-input" for="street-address">Street Address:</label>
+        <input type="text" id="street-address" name="street-address">
+        <h3>Shipping Method</h3>
+        <input type="radio" id="standard-shipping" name="shipping-method" value="Standard Shipping">
+        <label for="standard-shipping">Standard Shipping</label><br>
+        <input type="radio" id="express-shipping" name="shipping-method" value="Express Shipping">
+        <label for="express-shipping">Express Shipping</label><br>
+        <div>
+          <h4>Total Amount:</h4>
+          <h4>$1700</h4>
+        </div>
+        <button id="payment-button">Proceed To Payment</button>
+      </form>
+    </div>
+  </div>
+  
+</body>
