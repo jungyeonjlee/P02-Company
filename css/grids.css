@@ -34,7 +34,6 @@
   
 }
 
-<<<<<<< HEAD
 .block-img-filter{
   width:14.66666%;
   height: auto;
@@ -62,8 +61,6 @@
   margin-right: 32px;
 }
 
-=======
->>>>>>> JYBranch
 /* product description */
 .container-product-description-img-set{
   display: flex;
@@ -177,7 +174,6 @@ border-bottom-width: 0.2rem;
   grid-column-gap: 2rem;
 }
 
-<<<<<<< HEAD
 footer{
   display: flex;
   flex-direction: row;
@@ -188,9 +184,6 @@ footer{
 }
 
 @media(min-width:77.875rem){
-=======
-@media(max-width:77.875rem){
->>>>>>> JYBranch
   .block-product-listing {
     width: 23%;
     /* margin-right: 32px; */
