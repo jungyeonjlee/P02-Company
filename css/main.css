@@ -4,37 +4,17 @@
 */
 body {
   font-family: 'Neue Montreal', 'Space Mono', sans-serif;
+<<<<<<< HEAD
   padding: 2rem;
   margin: 0;
+=======
+  margin: 0;
+  /* padding: 2rem; */
+>>>>>>> JYBranch
 }
 
 
 /* navbar Styling  */
-
-
-.brandName{
-grid-column-start: 1;
-grid-column-end: 5;
-place-self: center;
-
-
-}
-
-#navButton1{
-  grid-column-start: 6;
-  grid-column-end: 8;
-}
-
-#navButton2{
-  grid-column-start: 8;
-  grid-column-end: 10;
-}
-
-#navButton3{
-  grid-column-start: 10;
-  grid-column-end: 12;
-}
-
 
 
 /* header{
@@ -71,6 +51,23 @@ place-self: center;
   font-style: normal;
 }
 
+.block-img-filter {
+  opacity: 0.9;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  border-radius: 6px;
+}
+
+.block-img-filter:focus {
+  stroke-width: 2px;  
+  stroke: #F5BF6C;
+}
+
+.block-product-listing:hover {
+  opacity: 0.9;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  border-radius: 6px;
+}
+
 
 /* navbar Styling end  */
 
@@ -85,7 +82,10 @@ place-self: center;
 }
 .img{
   width: 100%;
+<<<<<<< HEAD
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
+=======
+>>>>>>> JYBranch
 }
 
 .filter-button{
@@ -164,17 +164,12 @@ h5 {
   margin-top: 4px;
 }
 
-.h3-shipping-address {
+.h3-order-summary {
   margin-top: 0px;
 }
 
 .h5-product-listing {
   margin-bottom: 4px;
-}
-
-.h5-checkout-cart {
-  margin-bottom: 4px;
-  margin-top: 0px;
 }
 
 p {
@@ -217,11 +212,10 @@ button {
   text-align: center;
   text-decoration: none;
   /* font-family: 'PP Neue Montreal';s */
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1em;
   cursor: pointer;
   transition: 0.15s;
-  
 }
 
 button:hover {
@@ -282,11 +276,6 @@ img {
   width: 100%;
 }
 
-.img-checkout-cart {
-  width: 100%;
-  border-radius: 3px;
-}
-
 .img-as-a-link {
   width: 20vw;
 }
@@ -306,7 +295,77 @@ font-style: italic;
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
 }
 
+/* NAV BAR */
 
-/* 
-  COMBINED ELEMENTS -------------------
-*/
+nav{
+  margin: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* CHECKOUT CART */
+
+.main-container-checkout-cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 64px;
+}
+
+.main-block-shipping-method {
+  margin-top: 16px;
+  flex-grow: 1;
+}
+
+.main-block-checkout-cart {
+ flex-grow: 48;
+}
+
+.container-checkout-cart {
+  display: flex;
+  margin-top: 16px;
+  margin-right: 64px;
+  border-top: 1px solid #F5BF6C;
+  padding-top: 16px;
+}
+
+.block-checkout-cart {
+  width: 15em;
+  margin-right: 32px;
+}
+
+.h5-checkout-cart {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.container-total-amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-checkout-cart {
+  width: 100%;
+  border-radius: 3px;
+}
+
+/* FOOTER */
+
+footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  padding: 64px;
+  /* background-color: #01020e; */
+}
+
+.block-footer {
+  flex-grow: 1;
+}
+
+.block-footer2 {
+  flex-grow: 2;
+}
+
+
+
