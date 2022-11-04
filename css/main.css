@@ -4,8 +4,13 @@
 */
 body {
   font-family: 'Neue Montreal', 'Space Mono', sans-serif;
+<<<<<<< HEAD
   padding: 2rem;
   margin: 0;
+=======
+  margin: 0;
+  /* padding: 2rem; */
+>>>>>>> JYBranch
 }
 
 
@@ -77,7 +82,10 @@ body {
 }
 .img{
   width: 100%;
+<<<<<<< HEAD
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
+=======
+>>>>>>> JYBranch
 }
 
 .filter-button{
