@@ -151,13 +151,14 @@
 
 .container-benefits{
   display: flex;
-  border-bottom: #F5BF6C;
-  border-bottom-style: solid;
-  border-bottom-width: 0.2rem;
+
 }
 
 .block-benefits-title{
-width: 100%;
+width: 100%;  
+border-bottom: #F5BF6C;
+border-bottom-style: solid;
+border-bottom-width: 0.2rem;
 
 }
 
