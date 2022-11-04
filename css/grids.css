@@ -201,6 +201,8 @@ nav{
   flex-wrap: wrap;
   justify-content: flex-end;
 
+  padding-top: 5rem;
+
 }
 
 .block-benefits-title{
@@ -219,11 +221,61 @@ border-bottom-width: 0.15rem;
 .container-benefits-img-text{
   display: flex;
   flex-direction: row;
+
+  padding-top: 5rem;
+
+
 }
 .block-benefits-img-text2{
   width: 33.333333%;
   margin-left: 1%;
   margin-right:1%;
+}
+
+#select-button{
+  width: 100%;
+}
+
+#name-price{
+  height: 30%;
+}
+
+/* ABOUT US --------------------------- */
+
+.container-about-us{
+display: flex;
+
+padding-top: 5rem;
+
+border-top: #F5BF6C;
+border-top-style: solid;
+border-top-width: 0.15rem;
+}
+
+.block-about-us1{
+width: 33.3333333%;
+}
+
+.block-about-us2{
+  width: 66.666666%;
+  }
+
+/* HOME PAGE */
+
+.home-img{
+  height: auto;
+  width: 100vw;
+}
+
+.home-img-pos{
+  position: relative;
+  right: 2rem;
+}
+
+.home-text-pos{
+  position: relative;
+  bottom: 40vh;
+  left: 60%;
 }
 
 /* FOOTER */
