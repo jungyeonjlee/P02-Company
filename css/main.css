@@ -4,33 +4,12 @@
 */
 body {
   font-family: 'Neue Montreal', 'Space Mono', sans-serif;
-<<<<<<< HEAD
   padding: 2rem;
   margin: 0;
-=======
-  margin: 0;
-  /* padding: 2rem; */
->>>>>>> JYBranch
 }
 
 
-/* navbar Styling  */
-
-
-/* header{
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 1rem;
-  justify-content: left;
-
-} */
-
-/* nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
+/* NAV BAR STYLING ----------------------------------------------------------------  */
 
 .button-nav {
   display: inline-block;
@@ -51,27 +30,55 @@ body {
   font-style: normal;
 }
 
-.block-img-filter {
-  opacity: 0.9;
+
+/* PRODUCT LISTING STYLE ----------------------------------------------------------- */
+
+.block-filter {
+  background-color: #ffffff;
+  color: rgb(21, 20, 26);
+  font-size: .75em;
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
   border-radius: 6px;
+  cursor: pointer;
 }
 
-.block-img-filter:focus {
+.img-filter {
+  width: 100%;
+}
+
+.filter{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(21, 20, 26);
+  background-color: #ffffff;
+  font-size: 1.25em;
+  text-decoration: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+  width: 50%;
+  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  
+
+  /* border: black;
+  border-width: 0.1rem;
+  border-style: solid; */
+}
+
+.block-filter:focus {
   stroke-width: 2px;  
   stroke: #F5BF6C;
 }
 
-.block-product-listing:hover {
+.block-filter:hover {
+  stroke-width: 2px;  
+  stroke: #d8d8d8;
+}
+
+.img-product-listing:hover {
   opacity: 0.9;
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
   border-radius: 6px;
 }
-
-
-/* navbar Styling end  */
-
-/* productlisting style  */
 
 .new_section{
   margin-top: 2rem;
@@ -80,12 +87,9 @@ body {
 .description{
   grid-column: 1/5;
 }
-.img{
+
+.img-product-listing {
   width: 100%;
-<<<<<<< HEAD
-  box-shadow: 3px 2px 6px rgb(226, 226, 226);
-=======
->>>>>>> JYBranch
 }
 
 .filter-button{
@@ -108,6 +112,12 @@ body {
   border-style: solid; */
 }
 
+.filter-button:focus{
+
+  stroke-width: 4px;  
+  stroke: #F5BF6C;
+}
+
 #button-section{
   /* justify-content: center; */
   align-items:center;
@@ -117,7 +127,7 @@ body {
 
 
 
-/* productlisting style end  */
+/* OTHER ---------------------------------------------------------------------------- */
 
 
 
@@ -272,10 +282,6 @@ img {
   transition: 0.15s;
 }
 
-.img-product-listing {
-  width: 100%;
-}
-
 .img-as-a-link {
   width: 20vw;
 }
@@ -295,53 +301,14 @@ font-style: italic;
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
 }
 
-/* NAV BAR */
 
-nav{
-  margin: 64px;
-  display: flex;
-  justify-content: space-between;
-}
 
 
 /* CHECKOUT CART */
 
-.main-container-checkout-cart {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 64px;
-}
-
-.main-block-shipping-method {
-  margin-top: 16px;
-  flex-grow: 1;
-}
-
-.main-block-checkout-cart {
- flex-grow: 48;
-}
-
-.container-checkout-cart {
-  display: flex;
-  margin-top: 16px;
-  margin-right: 64px;
-  border-top: 1px solid #F5BF6C;
-  padding-top: 16px;
-}
-
-.block-checkout-cart {
-  width: 15em;
-  margin-right: 32px;
-}
-
 .h5-checkout-cart {
   margin-bottom: 4px;
   margin-top: 0px;
-}
-
-.container-total-amount {
-  display: flex;
-  justify-content: space-between;
 }
 
 .img-checkout-cart {
@@ -349,23 +316,7 @@ nav{
   border-radius: 3px;
 }
 
-/* FOOTER */
 
-footer{
-  display: flex;
-  flex-direction: row;
-  margin-top: 64px;
-  padding: 64px;
-  /* background-color: #01020e; */
-}
-
-.block-footer {
-  flex-grow: 1;
-}
-
-.block-footer2 {
-  flex-grow: 2;
-}
 
 
 
