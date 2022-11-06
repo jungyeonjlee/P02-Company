@@ -21,7 +21,12 @@ img {
 nav{
   margin: 64px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.block-nav{
+  width: 30%;
 }
 
 /* PRODUCT LISTING --------------------------------------------------- */
@@ -63,10 +68,10 @@ nav{
 }
 
 .block-filter{
-  width: 10.66666%;
-  /* margin-left: 2%;
-  margin-right: 2%; */
-  padding: 48px;
+  width: 8.66666%;
+  margin-left: 3%;
+  margin-right: 3%;
+  /* padding: 48px; */
 }
 
 /* CHECKOUT CART ---------------------------------------------------- */ 
@@ -218,20 +223,20 @@ border-bottom-width: 0.15rem;
 }
 
 .block-benefits-img-text1{
-  width: 66.6666%;
+  width: 100%;
   
 }
 
 .container-benefits-img-text{
   display: flex;
   flex-direction: row;
-
+  justify-content: end;
   padding-top: 5rem;
 
 
 }
 .block-benefits-img-text2{
-  width: 33.333333%;
+  width: 16.6666%;
   margin-left: 1%;
   margin-right:1%;
 }
@@ -307,4 +312,11 @@ footer{
   }
  
 
+}
+
+/* 46.25rem = 740px */
+@media(max-width:46.25rem){
+  .block-nav{
+    width: 100%;
+  }
 }
