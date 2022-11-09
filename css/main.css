@@ -32,6 +32,7 @@ body {
 }
 
 
+
 /* PRODUCT LISTING STYLE ----------------------------------------------------------- */
 
 .block-filter {
@@ -196,7 +197,7 @@ h5 {
 
 p {
   margin-top: 0;
-  width:60%;
+  /* width:60%; */
   font-size: 0.9em;
   line-height: 145%;
   font-family: 'Space Mono';
@@ -273,7 +274,7 @@ input[type=text] {
   box-shadow: 3px 2px 6px rgb(226, 226, 226);
   border-radius: 3px;
   padding: 16px;
-  width: 280px;
+  /* width: 280px; */
 }
 
 input[type=text]:focus {
@@ -328,6 +329,33 @@ font-style: italic;
 .img-checkout-cart {
   width: 100%;
   border-radius: 3px;
+}
+
+/* MOBILE SWITCH ------------------------------------------------------------ */
+/* 46.25rem = 740px */
+
+@media(max-width:46.25rem){
+
+  h2 {
+    font-size: 2em;
+    /* font-size: 3em; */
+  
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    /* font-size: 2em; */
+  
+    font-weight: bold;
+  }
+
+
+  /* FOOTER */
+
+  input[type=text]{
+    width: 100%;
+  }
 }
 
 
