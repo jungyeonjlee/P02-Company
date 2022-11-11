@@ -38,7 +38,7 @@ width: 50%;
 .container-nav-right{
   width: 30%;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
 }
 
 
@@ -54,7 +54,7 @@ width: 50%;
 }
 
 .search-bar{
-  width: 90%;
+  width: 70%;
 }
 
 /* PRODUCT LISTING --------------------------------------------------- */
