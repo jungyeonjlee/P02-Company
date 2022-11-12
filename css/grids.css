@@ -18,10 +18,19 @@ img {
 /* NAV BAR ----------------------------------------------------------- */
 
 nav{
-  margin: 64px;
+  margin: 12px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 60;
 }
 
 .brand-name{
@@ -37,7 +46,7 @@ width: 50%;
 .container-nav-right{
   width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 
@@ -55,6 +64,89 @@ width: 50%;
 .search-bar{
   width: 70%;
 }
+
+.hamburger{
+  display:none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6066F5;
+}
+
+@media(max-width:46.25rem){
+  .hamburger{
+    display: block;
+    width: 10%;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+transform: translateY(8px) rotate(45deg); 
+ }
+
+ .hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg); 
+   }
+   /* .nav-menu{
+     position: fixed;
+     left: -100%;
+     top: 70px;
+     gap: 0;
+     flex-direction: column;
+     width: 100%;
+     text-align: center;
+     transition: 0.3s;
+   }
+
+   nav-item{
+     margin: 16px 0;
+   }
+
+   .nav-menu.active{
+     left:0
+   } */
+
+   .nav-menu{
+    position: fixed;
+    top: -100vh;
+    /* top: 70px; */
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-bottom: 20rem;
+  }
+
+  .container-nav-left{
+    margin: 16px 0;
+  }
+  .container-nav-left{
+    margin: 16px 0;
+  }
+
+  .container-nav-left.active{
+    left:0
+  }
+  .container-nav-right.active{
+    left:0
+  }
+  .nav-menu.active{
+    top:70px
+  } 
+
+}
+
 
 /* PRODUCT LISTING --------------------------------------------------- */
 
