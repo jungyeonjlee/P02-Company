@@ -75,8 +75,8 @@ width: 50%;
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
   background-color: #6066F5;
 }
 
@@ -84,6 +84,12 @@ width: 50%;
   .hamburger{
     display: block;
     width: 10%;
+  }
+
+  .hamburger.active{
+    padding-bottom: 15rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 
   .hamburger.active .bar:nth-child(2){
@@ -119,7 +125,6 @@ transform: translateY(8px) rotate(45deg);
    .nav-menu{
     position: fixed;
     top: -100vh;
-    /* top: 70px; */
     gap: 0;
     flex-direction: column;
     width: 100%;
@@ -300,11 +305,18 @@ transform: translateY(8px) rotate(45deg);
  margin-bottom: 0.5rem;
 }
 
-#first-description-details{
+.first-description-details{
   border-top: black;
   border-top-style: solid;
   border-width: 0.2rem;
+  cursor: pointer;
 }
+
+.first-description-details.active{
+ padding-bottom: 10rem;
+}
+
+
 
 .fabric-description{
   display: flex;
