@@ -3,7 +3,13 @@
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-const details= document.querySelector(".first-description-details");
+const details= document.querySelector(".description-details");
+const features= document.querySelector(".description-features");
+const technology=document.querySelector(".description-technology");
+const materials=document.querySelector(".description-materials");
+const sustainability=document.querySelector(".description-sustainability");
+const care=document.querySelector(".description-care");
+
 const bodyListener= document.querySelector(".eventListner");
 
 
@@ -11,6 +17,22 @@ bodyListener.addEventListener("click", event => {
     if(event.target=details){
         details.classList.toggle("active");
     }
+    if(event.target=features){
+        features.classList.toggle("active");
+    }
+    if(event.target=technology){
+        technology.classList.toggle("active");
+    }
+    if(event.target=materials){
+        materials.classList.toggle("active");
+    }
+    if(event.target=sustainability){
+        sustainability.classList.toggle("active");
+    }
+    if(event.target=care){
+        care.classList.toggle("active");
+    }
+
 
     if(event.target=hamburger){
     hamburger.classList.toggle("active");
