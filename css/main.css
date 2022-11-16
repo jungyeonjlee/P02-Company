@@ -12,7 +12,8 @@ body {
 /* NAV BAR STYLING ----------------------------------------------------------------  */
 
 .button-nav {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding: 1rem;
   color: rgb(21, 20, 26);
   background-color: #ffffff;
@@ -20,23 +21,19 @@ body {
   text-decoration: none;
   border-radius: 3px;
   transition-duration: 0.5s;
-  width: 8vw;
+  white-space: nowrap;
+  font-size: 1em;
 }
 
 /* Office hours w/ Enneas */
 .button-nav:hover, .button-nav:focus {
-  background-color: #6066F5;
-  color: #ffffff;
-  box-shadow: 3px 2px 6px rgb(226, 226, 226);
+  color: #6066F5;
   font-style: normal;
 }
 
 .shopping-cart{
-  width: 2.5rem;
+  width: 1.5rem;
 }
-
-
-
 
 
 /* PRODUCT LISTING STYLE ----------------------------------------------------------- */
@@ -362,6 +359,27 @@ font-style: italic;
   width: 100%;
   border-radius: 3px;
 }
+
+/* FOOTER -----------------------------------------------------------------*/
+
+footer {
+background-color: #e2e2e2;
+}
+
+.h5-footer {
+  font-size: 1.1em;
+  margin-bottom: 2%;
+}
+
+.header-footer {
+  font-size: 1.75em;
+}
+
+.logo-footer {
+  width: 100%;
+}
+
+
 
 /* MOBILE SWITCH ------------------------------------------------------------ */
 /* 46.25rem = 740px */
