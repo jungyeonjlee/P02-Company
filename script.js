@@ -3,7 +3,9 @@
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-const details= document.querySelector(".description-details");
+// const details= document.querySelector(".description-details");
+const details= document.querySelector(".block-product-description-details-text");
+const detailsText=document.querySelector(".details-text")
 const features= document.querySelector(".description-features");
 const technology=document.querySelector(".description-technology");
 const materials=document.querySelector(".description-materials");
@@ -12,26 +14,34 @@ const care=document.querySelector(".description-care");
 
 const bodyListener= document.querySelector(".eventListner");
 
+const plus = document.querySelector(".vert-plus")
+
 
 bodyListener.addEventListener("click", event => {
     if(event.target=details){
         details.classList.toggle("active");
+        detailsText.classList.toggle("active");
     }
-    if(event.target=features){
-        features.classList.toggle("active");
+    // if(event.target=features){
+    //     features.classList.toggle("active");
+    // }
+    // if(event.target=technology){
+    //     technology.classList.toggle("active");
+    // }
+    // if(event.target=materials){
+    //     materials.classList.toggle("active");
+    // }
+    // if(event.target=sustainability){
+    //     sustainability.classList.toggle("active");
+    // }
+    // if(event.target=care){
+    //     care.classList.toggle("active");
+    // }
+
+    if(event.target=plus){
+        plus.classList.toggle("active");
     }
-    if(event.target=technology){
-        technology.classList.toggle("active");
-    }
-    if(event.target=materials){
-        materials.classList.toggle("active");
-    }
-    if(event.target=sustainability){
-        sustainability.classList.toggle("active");
-    }
-    if(event.target=care){
-        care.classList.toggle("active");
-    }
+
 
 
     if(event.target=hamburger){

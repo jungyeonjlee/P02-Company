@@ -9,6 +9,17 @@ body {
 }
 
 
+/* HOME PAGE------------------- */
+
+.main-header{
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.main-description{
+  padding-bottom: 10rem;
+}
+
 /* NAV BAR STYLING ----------------------------------------------------------------  */
 
 .button-nav {
@@ -85,9 +96,13 @@ body {
 
 .img-product-listing:hover {
   opacity: 0.9;
+  /* border: #F5BF6C;     
+  border-width: 0.1rem;
+  border-style:solid; */
   box-shadow: 4px 3px 6px rgb(241, 241, 241);
   border-radius: 6px;
 }
+
 
 .new_section{
   margin-top: 2rem;
@@ -143,8 +158,53 @@ body {
 
 }
 
+.plus{
 
+}
+.vert-plus{
+  display: block;
+  position: relative;
+  width: 3px;
+  height: 25px;
+  right: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-color: #6066F5;
+}
+.vert-plus.active{
+  display: block;
+  /* position:relative; */
+  /* right: 1rem; */
+  rotate: 90deg;
+  width: 3px;
+  height: 25px;
+  background-color: transparent;
+}
 
+.horizontal-plus{
+  display: block;
+  position: relative;
+  right: 11px;
+  bottom: 14px;
+  width: 25px;
+  height: 3px;
+  background-color: #6066F5;
+}
+
+.details-text{
+  /* position: relative;
+  left:100vw; */
+  display: block;
+  opacity: 0;
+  transition-duration: 0.4s;
+  transition-delay: 0.3s;
+}
+
+.details-text.active{
+  /* left:0; */
+  opacity: 100;
+
+}
 
 
 
@@ -415,6 +475,15 @@ background-color: #e2e2e2;
     padding-top: 3%;
     padding-bottom: 3%;
   } */
+
+  .text-benefits {
+    font-size: 5vw;
+  }
+  
+  .text-benefits-small {
+    font-size: 2.5vw;
+    font-weight: lighter;
+  }
 
 }
 
