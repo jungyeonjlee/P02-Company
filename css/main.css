@@ -191,18 +191,17 @@ body {
   background-color: #6066F5;
 }
 
-.details-text{
+.details-text, .features-text, .technologies-text, .materials-text,.care-text{
   /* position: relative;
   left:100vw; */
-  display: block;
   opacity: 0;
-  transition-duration: 0.4s;
-  transition-delay: 0.3s;
+  transition-duration: 0.5s;
 }
 
-.details-text.active{
+.details-text.active, .features-text.active,.technologies-text.active, .materials-text.active,.care-text.active{
   /* left:0; */
   opacity: 100;
+
 
 }
 

@@ -327,24 +327,24 @@ nav {
 }
 
 
-.block-product-description-details-text{
-  position: relative;
-  bottom: 9rem;
+.block-product-description-details-text, .block-product-description-features-text, .block-product-description-technology-text, .block-product-description-materials-text, .block-product-description-care-text {
+
   padding-top: 0.5rem;
   border-bottom: black;
   border-bottom-style: solid;
   border-width: 0.2rem;
-  transition-duration: 0.5s;
+  transition-duration: 0.1s;
+  font-size: 0;
 
 }
 
-.block-product-description-details-text.active{
+.block-product-description-details-text.active, .block-product-description-features-text.active, .block-product-description-technology-text.active, .block-product-description-materials-text.active, .block-product-description-care-text.active{
   /* padding-top: 30%; */
-
-  bottom: 0rem;
+  font-size: 1em;
   border-bottom: black;
   border-bottom-style: solid;
   border-width: 0.2rem;
+  padding-bottom: 0.5rem;
 }
 
 .container-description-title{
@@ -358,7 +358,7 @@ nav {
   border-top-style: solid;
   border-width: 0.2rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 
 }
 
@@ -367,20 +367,20 @@ nav {
 .description-materials,
 .description-sustainability,
 .description-care {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  transition-duration: 0.5s;
+  padding-top: 0.5rem;
+   /* padding-bottom: 1rem; 
+  transition-duration: 0.5s; */ 
 }
 
 
-.description-details.active,
+/* .description-details.active,
 .description-features.active,
 .description-technology.active,
 .description-materials.active,
 .description-sustainability.active,
 .description-care.active {
   padding-bottom: 30%;
-}
+} */
 
 
 
