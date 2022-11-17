@@ -11,13 +11,33 @@ body {
 
 /* HOME PAGE------------------- */
 
-.main-header{
-  font-size: 2.5rem;
-  padding-bottom: 5rem;
+.filter-img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.main-description{
-  padding-bottom: 10rem;
+.h1-header-home-page {
+  font-size: 3.5em;
+  margin-bottom: 12%;
+}
+
+.explore-now {
+  display: flex;
+  padding-bottom: 2%;
+  color: rgb(21, 20, 26);
+  background-color: #ffffff;
+  font-size: 1.25em;
+  text-decoration: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+  white-space: nowrap;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.explore-now:hover, .explore-now:focus {
+  color: #6066F5;
+  font-style: normal;
 }
 
 /* NAV BAR STYLING ----------------------------------------------------------------  */
@@ -289,7 +309,7 @@ p {
 }
 
 .text-benefits-small {
-  font-size: 1.25vw;
+  font-size: 1vw;
   font-weight: lighter;
 }
 
@@ -422,7 +442,7 @@ font-style: italic;
 /* FOOTER -----------------------------------------------------------------*/
 
 footer {
-background-color: #e2e2e2;
+background-color: #F5BF6C;
 }
 
 .h5-footer {
@@ -480,7 +500,7 @@ background-color: #e2e2e2;
   }
   
   .text-benefits-small {
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: lighter;
   }
 

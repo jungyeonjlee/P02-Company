@@ -392,17 +392,6 @@ nav {
   margin-left: 4%;
 }
 
-.container-border-img {
-  position: relative;
-  right: 2rem;
-}
-
-.block-border-img {
-  height: auto;
-  width: 102vw;
-
-}
-
 .container-benefits {
   display: flex;
   flex-direction: row;
@@ -415,11 +404,11 @@ nav {
 
 .block-benefits-title {
   width: 100%;
-  border-bottom: #F5BF6C;
+  border-bottom: #6066F5;
   border-bottom-style: solid;
   border-bottom-width: 0.15rem;
-  margin-right: 64px;
-  margin-left: 64px;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .block-benefits-img-text1 {
@@ -431,8 +420,8 @@ nav {
   flex-direction: row;
   justify-content: end;
   padding-top: 4rem;
-  margin-right: 64px;
-  margin-left: 64px;
+  margin-right: 4%;
+  margin-left: 4%;
 
 }
 
@@ -441,6 +430,10 @@ nav {
   min-width: 13.5rem;
   margin-left: 0.5%;
   margin-right: 0.5%;
+}
+
+.text-benefits-small {
+  margin-bottom: 0.5%;
 }
 
 #select-button {
@@ -454,39 +447,59 @@ nav {
 
 /* ABOUT US --------------------------- */
 
+.h1-header-about-us {
+  margin-left: 4%;
+}
+
+.h5-subheader-about-us {
+  margin-left: 4%;
+}
+
 .container-about-us {
   display: flex;
 
-  padding-top: 5rem;
+  padding-top: 4%;
 
-  border-top: #F5BF6C;
+  border-top: #6066F5;
   border-top-style: solid;
   border-top-width: 0.15rem;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .block-about-us1 {
-  width: 33.3333333%;
+  width: 60%;
 }
 
 .block-about-us2 {
-  width: 66.666666%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
 }
+
 
 /* HOME PAGE */
 
 .container-main{
   display: flex; 
-  justify-content: space-between;
-  /* align-items: center; */
-  padding-bottom: 10rem;
+  padding-bottom: 10%;
+  gap: 3%;
 }
 
 .block-home-img{
-  width: 55%;
+  width: 70%;
+  object-fit: cover;
 }
 
 .block-home-text{
-  width: 40%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /* FOOTER */
@@ -494,7 +507,7 @@ nav {
 footer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 10%;
   padding: 4%;
   padding-top: 6%;
   padding-bottom: 6%;
@@ -523,7 +536,7 @@ footer {
 }
 
 .container-footer-email {
-  width: 50%;
+  width: 33%;
   margin-bottom: 4%;
 }
 
