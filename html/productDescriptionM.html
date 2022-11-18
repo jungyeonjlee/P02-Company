@@ -10,50 +10,85 @@
 
 </head>
 
-<body class="eventListner">
+<body>
 
   <nav>
-
-    <div class="container-nav-left">
-      <div class="brand-name">
-        <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+    <div class="container-nav-bar">
+      <div class="container-nav-left">
+        <div class="brand-name">
+          <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="productList.html">Shop</a>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="aboutUs.html">About us</a>
+        </div>
+  
       </div>
-
-      <div class="block-nav">
-        <a class="button-nav" href="productList.html">Shop</a>
+  
+      <div class="container-nav-right">
+  
+        <div class="search-bar">
+          <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+        </div>
+  
+        <div class="block-shopping-cart">
+          <a href="checkoutCart.html">
+            <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+          </a>
+        </div>
+  
       </div>
-
-      <div class="block-nav">
-        <a class="button-nav" href="aboutUs.html">About us</a>
-      </div>
-
+  
+      <!-- Taken from ........ -->
+      
     </div>
+    
+    <div class="container-mobile-nav-bar">
+      <div class="container-top-nav-bar">
+        
+        <div onclick="activateNav()" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
 
-    <div class="container-nav-right">
+        <div class="brand-name">
+          <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+        </div>
 
-      <div class="search-bar">
-        <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+        <div class="block-shopping-cart">
+          <a href="checkoutCart.html">
+            <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+          </a>
+        </div>
+  
+        
+
       </div>
+      <div class="container-bottom-nav-bar">
+        <div class="block-nav">
+          <a class="button-nav" href="productList.html">Shop</a>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="aboutUs.html">About us</a>
+        </div>
 
-      <div class="block-shopping-cart">
-        <a href="checkoutCart.html">
-          <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
-        </a>
+        <div class="search-bar">
+          <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+        </div>
+
       </div>
-
-    </div>
-
-    <!-- Taken from ........ -->
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
     </div>
 
   </nav>
 
 
-  </section>
+
 
   <section class="container-product-description">
     <section class="container-product-description-img-set">
@@ -76,7 +111,6 @@
 
     <section class="container-product-description-text-set">
       <div class="block-product-description-text-set container-product-description-name-price">
-
         <div>
           <h3>Alpha SV Jacket</h3>
         </div>
@@ -118,6 +152,21 @@
         <div class="block-product-description-color-picker">
           <img class="img" src="../pictures/product-description/Beta-AR-Jacket-Bitters.png" alt="">
         </div>
+      </div>
+
+      <div class="block-product-description-text-set container-product-description-size">
+        <button class="size-button">
+          S
+        </button>
+        <button class="size-button">
+          M
+        </button>
+        <button class="size-button">
+          L
+        </button>
+        <button class="size-button">
+          XL
+        </button>
       </div>
 
       <div class="block-product-description-text-set">
@@ -218,6 +267,49 @@
 
   </section>
 
+  <section class="container-reviews-main">
+
+    <div class="block-reviews-header">
+      <h1>Reviews</h1>
+      <h1 class="h1-header-reviews">4.8</h1>
+    </div>
+
+    <div class="block-reviews-stars-and-comments">
+
+      <div class="container-reviews-stars-and-comments">
+
+        <div class="block-reviews-stars">
+          <img class="img-reviews" src="../pictures/product-description/5star.png" alt="5 stars">
+        </div>
+
+        <div class="block-reviews-comments">
+          <h5>Paul George</h5>
+          <h3 class="h3-comment-title-reviews">Great fit and excelllent customer service!</h3>
+          <h4>This jacket has lived up to its expectations and more. I'd highly recommend this to my family
+            and teammates. </h4>
+        </div>
+
+      </div>
+
+      <div class="container-reviews-stars-and-comments">
+
+        <div class="block-reviews-stars">
+          <img class="img-reviews" src="../pictures/product-description/4star.png" alt="4 stars">
+        </div>
+
+        <div class="block-reviews-comments">
+          <h5>Patrick Beverley</h5>
+          <h3 class="h3-comment-title-reviews">Decently comfy, but really durable.</h3>
+          <h4>The Alpha SV Jacket is a tank for at least the next 5 years. Definitely buying a few different colourways.
+          </h4>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
 
   <section class="fabric-description">
     <div>
@@ -264,48 +356,7 @@
 
   </section>
 
-  <section class="container-reviews-main">
-
-    <div class="block-reviews-header">
-      <h1>Reviews</h1>
-      <h1 class="h1-header-reviews">4.8</h1>
-    </div>
-
-    <div class="block-reviews-stars-and-comments">
-
-      <div class="container-reviews-stars-and-comments">
-
-        <div class="block-reviews-stars">
-          <img class="img-reviews" src="../pictures/product-description/5star.png" alt="5 stars">
-        </div>
-
-        <div class="block-reviews-comments">
-          <h5>Paul George</h5>
-          <h3 class="h3-comment-title-reviews">Great fit and excelllent customer service!</h3>
-          <h4>This jacket has lived up to its expectations and more. I'd highly recommend this to my family
-            and teammates. </h4>
-        </div>
-
-      </div>
-
-      <div class="container-reviews-stars-and-comments">
-
-        <div class="block-reviews-stars">
-          <img class="img-reviews" src="../pictures/product-description/4star.png" alt="4 stars">
-        </div>
-
-        <div class="block-reviews-comments">
-          <h5>Patrick Beverley</h5>
-          <h3 class="h3-comment-title-reviews">Decently comfy, but really durable.</h3>
-          <h4>The Alpha SV Jacket is a tank for at least the next 5 years. Definitely buying a few different colourways.
-          </h4>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
+  
 
   <footer>
 
