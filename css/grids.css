@@ -434,7 +434,7 @@ nav {
 
 .text-benefits-small {
   margin-bottom: 0.5%;
-}
+} 
 
 #select-button {
   width: 100%;
@@ -443,6 +443,24 @@ nav {
 
 #name-price {
   height: 30%;
+}
+
+.container-reviews-main {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 8%;
+  gap: 8%;
+}
+
+.block-reviews-stars-and-comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-reviews-stars-and-comments {
+  display: flex;
+
 }
 
 /* ABOUT US --------------------------- */
