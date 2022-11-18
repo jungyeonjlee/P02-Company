@@ -178,10 +178,8 @@ body {
 
 }
 
-.plus{
 
-}
-.vert-plus{
+.vert-plus-details, .vert-plus-features, .vert-plus-technology, .vert-plus-materials, .vert-plus-care {
   display: block;
   position: relative;
   width: 3px;
@@ -191,7 +189,8 @@ body {
   transition: all 0.4s ease-in-out;
   background-color: #6066F5;
 }
-.vert-plus.active{
+
+.vert-plus-details.active, .vert-plus-features.active, .vert-plus-materials.active, .vert-plus-care.active, .vert-plus-technology.active {
   display: block;
   /* position:relative; */
   /* right: 1rem; */

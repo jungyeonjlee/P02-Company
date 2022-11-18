@@ -17,42 +17,81 @@
 <body class="eventListner">
 
   <nav>
-
-    <div class="container-nav-left">
-      <div class="brand-name">
-        <h1> <a href="index.html"><img src="pictures/logo.png" alt=""></a> </h1>
+    <div class="container-nav-bar">
+      <div class="container-nav-left">
+        <div class="brand-name">
+          <h1> <a href="index.html"><img src="pictures/logo.png" alt=""></a> </h1>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="html/productList.html">Shop</a>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="html/aboutUs.html">About us</a>
+        </div>
+  
       </div>
-
-      <div class="block-nav">
-        <a class="button-nav" href="html/productList.html">Shop</a>
+  
+      <div class="container-nav-right">
+  
+        <div class="search-bar">
+          <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+        </div>
+  
+        <div class="block-shopping-cart">
+          <a href="html/checkoutCart.html">
+            <img class="shopping-cart" src="pictures/shopping-cart.png" alt="">
+          </a>
+        </div>
+  
       </div>
+  
+      <!-- Taken from ........ -->
+      
+    </div>
+    
+    <div class="container-mobile-nav-bar">
+      <div class="container-top-nav-bar">
+        
+        <div onclick="activateNav()" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
 
-      <div class="block-nav">
-        <a class="button-nav" href="html/aboutUs.html">About us</a>
+        <div class="brand-name">
+          <h1> <a href="index.html"><img src="pictures/logo.png" alt=""></a> </h1>
+        </div>
+
+        <div class="block-shopping-cart">
+          <a href="html/checkoutCart.html">
+            <img class="shopping-cart" src="pictures/shopping-cart.png" alt="">
+          </a>
+        </div>
+  
+        
+
       </div>
+      <div class="container-bottom-nav-bar">
+        <div class="block-nav">
+          <a class="button-nav" href="html/productList.html">Shop</a>
+        </div>
+  
+        <div class="block-nav">
+          <a class="button-nav" href="html/aboutUs.html">About us</a>
+        </div>
 
+        <div class="search-bar">
+          <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+        </div>
+
+      </div>
     </div>
 
-    <div class="container-nav-right">
+    
 
-      <div class="search-bar">
-        <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
-      </div>
-
-      <div class="block-shopping-cart">
-        <a href="html/checkoutCart.html">
-          <img class="shopping-cart" src="pictures/shopping-cart.png" alt="">
-        </a>
-      </div>
-
-    </div>
-
-    <!-- Taken from ........ -->
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
+    
 
   </nav>
 
