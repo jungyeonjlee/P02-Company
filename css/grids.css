@@ -449,18 +449,20 @@ nav {
   display: flex;
   margin-left: 4%;
   margin-right: 4%;
-  margin-top: 8%;
-  gap: 8%;
+  margin-top: 12%;
+  gap: 12%;
 }
 
 .block-reviews-stars-and-comments {
   display: flex;
   flex-direction: column;
+  
 }
 
 .container-reviews-stars-and-comments {
   display: flex;
-
+  gap: 2%;
+  margin-bottom: 6%;
 }
 
 /* ABOUT US --------------------------- */
@@ -624,7 +626,7 @@ footer {
   }
 
   .block-benefits-img-text2 {
-    padding-bottom:4% ;
+    margin-bottom: 12% ;
     width: 100%;
     min-width: 0rem;
   }

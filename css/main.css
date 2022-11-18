@@ -221,11 +221,15 @@ body {
 .details-text.active, .features-text.active,.technologies-text.active, .materials-text.active,.care-text.active{
   /* left:0; */
   opacity: 100;
-
-
 }
 
+.h3-comment-title-reviews {
+  margin-top: 2%;
+}
 
+.h1-header-reviews {
+  font-size: 8em;
+}
 
 /* OTHER ---------------------------------------------------------------------------- */
 
