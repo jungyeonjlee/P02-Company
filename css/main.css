@@ -342,7 +342,7 @@ p {
 }
 
 form {
-  width: 100%;
+  /* width: 100%; */
   background-color: #f7f7f7;
   padding: 48px;
   border-radius: 6px;
@@ -453,7 +453,51 @@ font-style: italic;
 }
 
 #proceed-button{
-  width: 100%;
+  width: 50%;
+}
+
+.main-block-shipping-method {
+  background-color: #f8f8f8;
+  border-radius: 6px;
+}
+
+/* #first-name {
+  width: 50%;
+}
+
+#last-name {
+  width: 50%;
+}
+
+#street-address {
+  width: 50%;
+} */
+
+.payment-button {
+  display: flex;
+  justify-content: center;
+  background-color: #6066F5;
+  border: none;
+  color: white;
+  height: 4em;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  /* font-family: 'PP Neue Montreal';s */
+  font-weight: bolder;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.payment-button:hover {
+  background-color: white;
+  color: rgb(21, 20, 26);
+  box-shadow: 3px 2px 6px #e2e2e2;
+}
+
+.main-container-payment {
+  background-color: #f8f8f8;
 }
 
 /* FOOTER -----------------------------------------------------------------*/

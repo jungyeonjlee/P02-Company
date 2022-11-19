@@ -89,56 +89,69 @@
 
   </nav>
 
-  <div class="main-container-checkout-cart">
+  <form class="main-container-payment">
 
-    <div class="main-block-checkout-cart">
+    <h3 class="h3-payment-method">Payment Method</h3>
 
-      <div class="container-checkout-cart">
-        <div class="block-checkout-cart">
-          <img class="img-checkout-cart" src="../pictures/product-listing/Alpha-SV-Jacket-Black-Womens.png"
-            alt="Women's Alpine Jacket">
-        </div>
+    <div class="container-name">
 
-        <div class="block-checkout-cart">
-          <h5 class="h5-checkout-cart">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Alpha SV Jacket</h3>
-          <h4>$950</h4>
-        </div>
-
+      <div class="block-name">
+        <label class="label-text-input" for="firstname">First name:</label>
+        <input type="text" id="first-name" name="first-name">
       </div>
 
-      <div class="container-checkout-cart">
-        <div class="block-checkout-cart">
-          <img class="img-checkout-cart" src="../pictures/product-listing/Beta-AR-Jacket-Lucent-Mens.png"
-            alt="Men's Ski Pants">
-        </div>
-
-        <div class="block-checkout-cart">
-          <h5 class="h5-checkout-cart">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Beta AR Jacket</h3>
-          <h4>$750</h4>
-        </div>
-
+      <div class="block-name">
+        <label class="label-text-input" for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last-name"><br>
       </div>
 
     </div>
 
-    <form class="main-block-shipping-method">
+    <div class="container-name">
 
-      <h3 class="h3-shipping-method">Shipping Method</h3>
-      <input type="radio" id="standard-shipping" name="shipping-method" value="Standard Shipping">
-      <label for="standard-shipping">Standard Shipping</label><br>
-      <input type="radio" id="express-shipping" name="shipping-method" value="Express Shipping">
-      <label for="express-shipping">Express Shipping</label><br>
-      <div class="container-total-amount">
-        <h4>Total Amount:</h4>
-        <h4>$1700</h4>
+      <div class="block-name">
+        <label class="label-text-input" for="street-address">Street Address:</label>
+        <input type="text" id="street-address" name="street-address">
       </div>
-      <a class="payment-button" href="../html/payment.html">Proceed To Payment</a>
 
-    </form>
+      <div class="block-name">
+        <label class="label-text-input" for="apt">Apt/Suite:</label>
+        <input type="text" id="apt" name="apartment">
+      </div>
 
-  </div>
+    </div>
+
+    <div class="container-name">
+
+      <div class="block-name">
+        <label class="label-text-input" for="city">City:</label>
+        <input type="text" id="city" name="city">
+      </div>
+
+      <div class="block-name">
+        <label class="label-text-input" for="province">Province:</label>
+        <input type="text" id="province" name="province">
+      </div>
+
+    </div>
+
+    <div class="container-name">
+
+      <div class="block-name">
+        <label class="label-text-input" for="pt">Postal Code:</label>
+        <input type="text" id="pt" name="pt">
+      </div>
+
+      <div class="block-name">
+        <label class="label-text-input" for="country">Country:</label>
+        <input type="text" id="country" name="country">
+      </div>
+
+    </div>
+
+    <a class="payment-button" href="../html/payment.html">Confirm Payment</a>
+
+  </form>
 
   <footer>
 
