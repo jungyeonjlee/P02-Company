@@ -16,12 +16,12 @@ img {
 }
 
 .block-filter:focus {
-  stroke-width: 2px;  
+  stroke-width: 2px;
   stroke: #F5BF6C;
 }
 
 .block-filter:hover {
-  stroke-width: 10px;  
+  stroke-width: 10px;
   stroke: #d8d8d8;
   stroke: #F5BF6C;
 }
@@ -374,6 +374,10 @@ form {
   margin-top: 8%;
 }
 
+.pay-button {
+  margin-top: 4%;
+  width: 94%;
+}
 
 /* PRODUCT DESCRIPTION -----------------------------------------------*/
 .container-product-description {
@@ -740,6 +744,20 @@ footer {
   .h3-shipping-method {
     margin-bottom: 4%;
   }
+
+.container-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-name {
+  width: 90%;
+}
+
+.pay-button {
+  margin-top: 4%;
+  width: 100%;
+}
 
   /* Product Listing page */
   .block-product-listing {
