@@ -231,7 +231,8 @@ body {
 }
 
 .size-button{
-  background-color: lightgray;
+  background-color: #6066F5;
+  color: white;
   width: 23%;
   margin-left: 1%;
   margin-right: 1%;
@@ -473,9 +474,9 @@ background-color: #F5BF6C;
 
 
 /* MOBILE SWITCH ------------------------------------------------------------ */
-/* 46.25rem = 740px */
+/* 59.375rem = 950px */
 
-@media(max-width:46.25rem){
+@media(max-width:59.375rem){
 
   h2 {
     font-size: 2em;

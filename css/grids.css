@@ -20,6 +20,10 @@ a {
   display: flex;
   align-items: center;
 }
+form{
+  background-color: transparent;
+  padding: 0;
+}
 
 /* NAV BAR ----------------------------------------------------------- */
 
@@ -91,7 +95,7 @@ a {
   background-color: #6066F5;
 }
 
-@media(max-width:46.25rem) {
+@media(max-width:59.375rem) {
   .hamburger {
     display: block;
     width: 10%;
@@ -114,8 +118,6 @@ a {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-  
   
   .container-nav-bar{
     position: absolute;
@@ -139,6 +141,9 @@ a {
     justify-content: space-around;
     padding-bottom: 0;
     transition-duration: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 
    }
 
@@ -273,6 +278,7 @@ a {
 .container-product-description {
   display: flex;
   margin-right: 4%;
+  padding-top: 1rem;
   /* margin-left: 64px; */
 }
 
@@ -595,11 +601,28 @@ footer {
 }
 
 /* MOBILE SWITCH ------------------------------------------------------------ */
-/* 46.25rem = 740px */
+/* 59.375rem = 950px */
 
-@media(max-width:46.25rem) {
+@media(max-width:59.375rem) {
 
- 
+ /* Product Listing page */
+ .block-product-listing {
+  width: 49%;
+
+}
+
+ .block-filter{
+   margin-top: 2%;
+   width:11.66%;
+   min-width: 4rem;
+ }
+
+ .block-filter-button {
+  width: 32.3333%;
+  /* justify-content: center; */
+}
+
+
 
   /* PRODUCT DESCRIPTION PAGE */
 
