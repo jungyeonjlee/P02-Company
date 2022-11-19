@@ -194,7 +194,7 @@ body {
   display: block;
   /* position:relative; */
   /* right: 1rem; */
-  rotate: 90deg;
+  transform:rotate(90deg) ;
   width: 3px;
   height: 25px;
   background-color: transparent;

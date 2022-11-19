@@ -16,79 +16,141 @@
 <body>
 
   <nav>
-    <div class="container-nav-bar">
-      <div class="container-nav-left">
-        <div class="brand-name">
-          <h1> <a href="../index.html"><img src="../pictures/logo.png" alt="Logo"></a> </h1>
-        </div>
+    <!-- NAV BAR CODE ADAPTED FROM https://www.youtube.com/watch?v=flItyHiDm7E -->
 
-        <div class="block-nav">
-          <a class="button-nav" href="productList.html">Shop</a>
-        </div>
+<div class="container-nav-bar">
+  <div class="container-nav-left">
+    <div class="brand-name">
+      <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+    </div>
 
-        <div class="block-nav">
-          <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
-        </div>
+    <div class="block-nav">
+      <a class="button-nav" href="productList.html">Shop</a>
+    </div>
 
-      </div>
+    <div class="block-nav">
+      <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+    </div>
 
-      <div class="container-nav-right">
+  </div>
 
-        <div class="search-bar">
-          <input type="text" name="Name"  placeholder="Search">
-        </div>
+  <div class="container-nav-right">
 
-        <div class="block-shopping-cart">
-          <a href="checkoutCart.html">
-            <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
-          </a>
-        </div>
+    <div class="search-bar">
+      <input type="text" name="Name" placeholder="Search"> 
+    </div>
 
-      </div>
+    <div class="block-shopping-cart">
+      <a href="checkoutCart.html">
+        <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+      </a>
+    </div>
 
-      <!-- Taken from ........ -->
+  </div>
+
+
+</div>
+
+<div class="container-mobile-nav-bar">
+  <div class="container-top-nav-bar">
+
+    <div onclick="activateNav()" class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <div class="brand-name">
+      <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+    </div>
+
+    <div class="block-shopping-cart">
+      <a href="checkoutCart.html">
+        <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+      </a>
+    </div>
+
+
+
+  </div>
+  <div class="container-bottom-nav-bar">
+    <div class="block-nav">
+      <a class="button-nav" href="productList.html">Shop</a>
+    </div>
+
+    <div class="block-nav">
+      <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" name="Name"  placeholder="Search"> 
+    </div>
+
+  </div>
+</div>
+
+</nav>
+
+  <section class="description">
+    <h1>SHOP GORE-TEX PRO*</h1>
+    <h5>Exceptionally made for the most rugged outdoor adventure</h5>
+  </section>
+
+  <section class="container-filter">
+
+    <div class="block-filter">
+      <img class="img-filter" src="../pictures/filter/Beta-AR-Jacket-Black.png" alt="">
+        <p>Outerwear</p>
+    </div>
+
+    <div class="block-filter">
+      <a href="#
+      "></a>
+      <img class="img-filter" src="../pictures/filter/Sabre-Pant-Relic.png" alt="">
+      <p>Bottoms</p>
+    </div>
+
+    <div class="block-filter">
+      <img class="img-filter" src="../pictures/filter/Rho-Heavyweight-Zip-Neck-Forage.png" alt="">
+      <p>Base Layer</p>
+    </div>
+
+    <div class="block-filter">
+      <img class="img-filter" src="../pictures/filter/Rush-SK-32-Backpack-Black.png" alt="">
+      <p>Backpacks</p>
+    </div>
+
+    <div class="block-filter">
+      <img class="img-filter" src="../pictures/filter/Aerios-FL-2-MID-GTX-Shoe-Labyrinth-Habitat.png" alt="">
+      <p>Footwear</p>
+    </div>
+
+    <div class="block-filter">
+      <img class="img-filter" src="../pictures/filter/Grotto-Toque-Light-Velvet-Sand-Black-Sapphire.png" alt="">
+      <p>Accessories</p>
+    </div>
+
+  </section>
+
+  <section class=" container-filter-button" id="button-section">
+
+    <div class="block-filter-button">
+      <button class="filter-button" >Mens</button>
 
     </div>
 
-    <div class="container-mobile-nav-bar">
-      <div class="container-top-nav-bar">
+    <div class="block-filter-button">
+      <button class="filter-button" >Womens</button>
 
-        <div onclick="activateNav()" class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-
-        <div class="brand-name">
-          <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
-        </div>
-
-        <div class="block-shopping-cart">
-          <a href="checkoutCart.html">
-            <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
-          </a>
-        </div>
-
-
-
-      </div>
-      <div class="container-bottom-nav-bar">
-        <div class="block-nav">
-          <a class="button-nav" href="productList.html">Shop</a>
-        </div>
-
-        <div class="block-nav">
-          <a class="button-nav" href="aboutUs.html">About us</a>
-        </div>
-
-        <div class="search-bar">
-          <input type="text" name="Name"  placeholder="Search"> 
-        </div>
-
-      </div>
     </div>
 
-  </nav>
+    <div class="block-filter-button">
+      <button class="filter-button" >Kids</button>
+
+    </div>
+
+
+</section>
 
  
 <section class="container-product-listing">
@@ -150,27 +212,23 @@
     </div>
 
     <div class="block-footer">
-<<<<<<< Updated upstream
-      <h5 class="h5-footer">Learn about us</h1>
-        <h5>LinkedIn</h5>
-        <h5>Instagram</h5>
-    </div>
-
-    <div class="block-footer">
-      <h5 class="h5-footer">Our resources</h1>
-        <h5>Style Guide</h5>
-        <h5>GitHub</h5>
-=======
       <h5 class="h5-footer">Learn about us</h5>
-        <h5>jungyeon.j.lee@gmail.com</h5>
-        <h5>nealsison22@gmail.com</h5>
+        <a href="#"><h5>LinkedIn</h5>
+        </a>
+        
+        <a href="#">
+          <h5>Instagram</h5>
+        </a>
     </div>
 
     <div class="block-footer">
       <h5 class="h5-footer">Our resources</h5>
-        <h5>jungyeon.j.lee@gmail.com</h5>
-        <h5>nealsison22@gmail.com</h5>
->>>>>>> Stashed changes
+      <a href="../P1-Style_Guide_Template/index.html">
+        <h5>Style Guide</h5>
+      </a>
+        <a href="https://github.com/jungyeonjlee/P02-Company"><h5>GitHub</h5>
+        </a>
+        
     </div>
 
   </div>

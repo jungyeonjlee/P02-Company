@@ -1,7 +1,7 @@
 /* found on GRIDS COMPLETED IAT 339 lecture */
 @font-face {
 	font-family: 'Neue Montreal';
-	font-weight: lighter;
+	font-weight: 100;
 	font-style: normal;
 	src: url('../fonts/PPNeueMontreal-Book.otf');
 }
@@ -29,7 +29,7 @@
 
 @font-face {
 	font-family: 'GT Flexa';
-	font-weight: lighter;
+	font-weight: 100;
 	font-style: normal;
 	src: url('../fonts/GT-Flexa-Light-Trial.otf');
 }

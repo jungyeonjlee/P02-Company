@@ -1,7 +1,9 @@
-// ALL JS CODE TAKEN/ADAPTED FROM
-// - https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript
 
-// NAVBAR
+
+// ALL JS CODE TAKEN and ADAPTED FROM
+//  https://www.youtube.com/watch?v=flItyHiDm7E
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu1 = document.querySelector(".container-bottom-nav-bar");
 const navMenu2 = document.querySelector(".container-top-nav-bar");
@@ -80,69 +82,6 @@ function activateCare(){
 }
 
 
-
-
-
-
-// bodyListener.addEventListener("click", event => {
-//     if(event.target=plus){
-//         plus.classList.toggle("active");
-//     }
-
-//     if(event.target=detailsContainer){
-//         details.classList.toggle("active");
-//         detailsText.classList.toggle("active");
-//     }
-
-//     if(event.target=featuresContainer){
-//         features.classList.toggle("active");
-//         featuresText.classList.toggle("active");
-//     }
-
-//     if(event.target=technologyContainer){
-//         technology.classList.toggle("active");
-//         technologyText.classList.toggle("active");
-//     }
-
-//     if(event.target=materialsContainer){
-//         materials.classList.toggle("active");
-//         materialsText.classList.toggle("active");
-
-//     }
-//     // if(event.target=sustainability){
-//     //     sustainability.classList.toggle("active");
-//     // }
-
-//     if(event.target=careContainer){
-//         care.classList.toggle("active");
-//         careText.classList.toggle("active");
-//     }
-
- 
-
-
-//     if(event.target=hamburger){
-//     hamburger.classList.toggle("active");
-//     navMenu.classList.toggle("active");        
-//     }
-// })
-
-// details.addEventListener("click", () => {
-//     details.classList.toggle("active");
-// })
-
-// hamburger.addEventListener("click", () => {
-//     hamburger.classList.toggle("active");
-//     navMenu.classList.toggle("active");
-// })
-
-
-
-
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}))
 
 
 
