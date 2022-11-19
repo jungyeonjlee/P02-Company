@@ -7,26 +7,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>P01 - GORE-TEX Style Guide</title>
 
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/fonts.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/fonts.css" rel="stylesheet">
+  <link href="../css/grids.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <header>
-    <h1>P01 - GORE-TEX Style Guide</h1>
 
     <nav>
+      <div class="container-nav-bar">
+        <div class="container-nav-left">
+          <div class="brand-name">
+            <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+          </div>
+    
+          <div class="block-nav">
+            <a class="button-nav" href="../html/productList.html">Shop</a>
+          </div>
+    
+          <div class="block-nav">
+            <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+          </div>
+    
+        </div>
+    
+        <div class="container-nav-right">
+    
+          <div class="search-bar">
+            <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+          </div>
+    
+          <div class="block-shopping-cart">
+            <a href="../html/checkoutCart.html">
+              <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+            </a>
+          </div>
+    
+        </div>
+    
+        <!-- Taken from ........ -->
+        
+      </div>
+      
+      <div class="container-mobile-nav-bar">
+        <div class="container-top-nav-bar">
+          
+          <div onclick="activateNav()" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+  
+          <div class="brand-name">
+            <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+          </div>
+  
+          <div class="block-shopping-cart">
+            <a href="../html/checkoutCart.html">
+              <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+            </a>
+          </div>
+    
+          
+  
+        </div>
+        <div class="container-bottom-nav-bar">
+          <div class="block-nav">
+            <a class="button-nav" href="../html/productList.html">Shop</a>
+          </div>
+    
+          <div class="block-nav">
+            <a class="button-nav" href="../html/aboutUs.html">About us</a>
+          </div>
+  
+          <div class="search-bar">
+            <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+          </div>
+  
+        </div>
+      </div>
+  
+    </nav>
+
+
+    <h1>P01 - GORE-TEX Style Guide</h1>
+
+    <!-- <section>
       <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
       <a class="button-nav" href="#text_elements">Text Elements</a>
       <a class="button-nav" href="#combined_elements">Combined Elements</a>
       <a class="button-nav" href="#products">Product Listing Template</a>
       <a class="button-nav" href="#checkout-cart">Checkout Template</a>
       <a class="button-nav" href="homePage.html">Citations</a>
-    </nav>
-  </header>
+    </section>
+  </header> -->
 
 
   <!-- INTERACTIVE ELEMENTS SECTION // -->
@@ -65,13 +142,78 @@
 
       <h4>Rendered element:</h4>
       <nav>
-        <a class="button-nav" href="#products">Products</a>
-        <a class="button-nav" href="#brands">Brands</a>
-        <a class="button-nav" href="#technologies">Technologies</a>
-        <a class="button-nav" href="home-page">GORE-TEX</a>
-        <a class="button-nav" href="#search">Search</a>
-        <a class="button-nav" href="#login">Login</a>
-        <a class="button-nav" href="#checkout-cart">Checkout Cart</a>
+        <div class="container-nav-bar">
+          <div class="container-nav-left">
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="../html/productList.html">Shop</a>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+            </div>
+      
+          </div>
+      
+          <div class="container-nav-right">
+      
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+      
+            <div class="block-shopping-cart">
+              <a href="../html/checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+      
+          </div>
+      
+          <!-- Taken from ........ -->
+          
+        </div>
+        
+        <div class="container-mobile-nav-bar">
+          <div class="container-top-nav-bar">
+            
+            <div onclick="activateNav()" class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+    
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+    
+            <div class="block-shopping-cart">
+              <a href="../html/checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+      
+            
+    
+          </div>
+          <div class="container-bottom-nav-bar">
+            <div class="block-nav">
+              <a class="button-nav" href="../html/productList.html">Shop</a>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="../html/aboutUs.html">About us</a>
+            </div>
+    
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+    
+          </div>
+        </div>
+    
       </nav>
     </section>
 
@@ -131,17 +273,15 @@
       <p>.img-as-a-link</p>
 
       <h4>Sample code:</h4>
-      <code>&lt;a href="https://snowbrains.com/wp-content/uploads/2020/04/markus-eder-ski-sequence-alagna.jpg"> <br>
-          &lt;img src="https://snowbrains.com/wp-content/uploads/2020/04/markus-eder-ski-sequence-alagna.jpg" 
-          alt="Backcountry Snowboard">
+      <code>&lt;a href="productDescriptionF.html"> <br>
+          &lt;img src="../pictures/product-listing/Alpha-SV-Jacket-Black-Womens.png" 
+          alt="Alpha SV Jacket Women's">
           &lt;/a></code>
 
       <h4>Rendered element:</h4>
-      <a href="https://snowbrains.com/lockdown-binge-watch-23-of-the-worlds-best-ski-movies-for-free-on-red-bull-tv/">
-        <img class="img-as-a-link"
-          src="https://snowbrains.com/wp-content/uploads/2020/04/markus-eder-ski-sequence-alagna.jpg"
-          alt="Backcountry Snowboard">
-      </a>
+      <a href="productDescriptionF.html">
+        <img  id= "img-small" class="img-product-listing" src="../pictures/product-listing/Alpha-SV-Jacket-Black-Womens.png"
+          alt="Alpha SV Jacket Women's"></a>
     </section>
 
   </section>
@@ -220,112 +360,398 @@
       <h3>Product/Service Listing</h3>
 
       <nav>
-        <a class="button-nav" href="#products">Products</a>
-        <a class="button-nav" href="#brands">Brands</a>
-        <a class="button-nav" href="#technologies">Technologies</a>
-        <a class="button-nav" href="home-page">GORE-TEX</a>
-        <a class="button-nav" href="#search">Search</a>
-        <a class="button-nav" href="#login">Login</a>
-        <a class="button-nav" href="#checkout-cart">Checkout Cart</a>
+        <div class="container-nav-bar">
+          <div class="container-nav-left">
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="productList.html">Shop</a>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+            </div>
+      
+          </div>
+      
+          <div class="container-nav-right">
+      
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+      
+            <div class="block-shopping-cart">
+              <a href="checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+      
+          </div>
+      
+          <!-- Taken from ........ -->
+          
+        </div>
+        
+        <div class="container-mobile-nav-bar">
+          <div class="container-top-nav-bar">
+            
+            <div onclick="activateNav()" class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+    
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+    
+            <div class="block-shopping-cart">
+              <a href="checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+      
+            
+    
+          </div>
+          <div class="container-bottom-nav-bar">
+            <div class="block-nav">
+              <a class="button-nav" href="productList.html">Shop</a>
+            </div>
+      
+            <div class="block-nav">
+              <a class="button-nav" href="aboutUs.html">About us</a>
+            </div>
+    
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+    
+          </div>
+        </div>
+    
       </nav>
-
-      <div class="container-product-listing">
-        <div class="block-product-listing">
-          <a href="https://arcteryx.com/ca/en/shop/womens/alpha-sv-jacket">
-            <img class="img-product-listing" src="product-listing-pictures/Alpha-SV-Jacket-Black-Womens.png"
-              alt="Alpha SV Jacket Women's"></a>
-          <h5 class="h5-product-listing">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Alpha SV Jacket</h3>
-          <h4>$950</h4>
+    
+        <section class="description">
+            <h1>SHOP GORE-TEX PRO*.</h1>
+            <h5>Exceptionally made for the most rugged outdoor adventure</h5>
+    
+      </section>
+    
+      <section class="container-filter">
+    
+        <div class="block-filter">
+          <img class="img-filter" src="../pictures/filter/Beta-AR-Jacket-Black.png" alt="">
+            <p>Outerwear</p>
         </div>
-        <div class="block-product-listing">
-          <a href="https://arcteryx.com/ca/en/shop/mens/beta-ar-jacket">
-            <img class="img-product-listing" src="product-listing-pictures/Beta-AR-Jacket-Lucent-Mens.png"
-              alt="Beta AR Jacket Men's"></a>
-          <h5 class="h5-product-listing">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Beta AR Jacket</h3>
-          <h4>$750</h4>
+    
+        <div class="block-filter">
+          <a href="#
+          "></a>
+          <img class="img-filter" src="../pictures/filter/Sabre-Pant-Relic.png" alt="">
+          <p>Bottoms</p>
         </div>
-        <div class="block-product-listing">
-          <a href="https://arcteryx.com/ca/en/shop/mens/macai-pant">
-            <img class="img-product-listing" src="product-listing-pictures/Macai-Pant-Black-Sapphire-Mens.png"
-              alt="Macai Pants Men's"></a>
-          <h5 class="h5-product-listing">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Macai Pants</h3>
-          <h4>$660</h4>
+    
+        <div class="block-filter">
+          <img class="img-filter" src="../pictures/filter/Rho-Heavyweight-Zip-Neck-Forage.png" alt="">
+          <p>Base Layer</p>
         </div>
-        <div class="block-product-listing">
-          <a href="https://arcteryx.com/ca/en/shop/mens/sabre-pant">
-            <img class="img-product-listing" src="product-listing-pictures/Sabre-Pant-Relic-Mens.png"
-              alt="Sabre Pants Men's"></a>
-          <h5 class="h5-product-listing">ARC'TERYX</h5>
-          <h3 class="h3-product-listing">Sabre Pants</h3>
-          <h4>$600</h4>
+    
+        <div class="block-filter">
+          <img class="img-filter" src="../pictures/filter/Rush-SK-32-Backpack-Black.png" alt="">
+          <p>Backpacks</p>
         </div>
-      </div>
+    
+        <div class="block-filter">
+          <img class="img-filter" src="../pictures/filter/Aerios-FL-2-MID-GTX-Shoe-Labyrinth-Habitat.png" alt="">
+          <p>Footwear</p>
+        </div>
+    
+        <div class="block-filter">
+          <img class="img-filter" src="../pictures/filter/Grotto-Toque-Light-Velvet-Sand-Black-Sapphire.png" alt="">
+          <p>Accessories</p>
+        </div>
+                              
+      </section>
+    
+      <section class=" container-filter-button" id="button-section">
+                           
+        <div class="block-filter-button">
+          <button class="filter-button" href=" ">Mens</button>
+    
+        </div>
+    
+        <div class="block-filter-button">
+          <button class="filter-button" href=" ">Womens</button>
+    
+        </div>
+    
+        <div class="block-filter-button">
+          <button class="filter-button" href=" ">Kids</button>
+    
+        </div>
+    
+    
     </section>
+    
+     
+    <section class="container-product-listing">
+    
+      <div class="block-product-listing">
+        <a href="productDescriptionF.html">
+          <img class="img-product-listing" src="../pictures/product-listing/Alpha-SV-Jacket-Black-Womens.png"
+            alt="Alpha SV Jacket Women's"></a>
+        <h5 class="h5-product-listing">ARC'TERYX</h5>
+        <h3 class="h3-product-listing">Alpha SV Jacket</h3>
+        <h4 class="h4-product-listing">$950</h4>
+      </div>
+    
+      <div class="block-product-listing">
+        <a href="productDescriptionM.html">
+          <img class="img-product-listing" src="../pictures/product-listing/Beta-AR-Jacket-Lucent-Mens.png"
+            alt="Beta AR Jacket Men's"></a>
+        <h5 class="h5-product-listing">ARC'TERYX</h5>
+        <h3 class="h3-product-listing">Beta AR Jacket</h3>
+        <h4 class="h4-product-listing">$750</h4>
+      </div>
+    
+      <div class="block-product-listing">
+        <a href="productDescriptionF.html">
+          <img class="img-product-listing" src="../pictures/product-listing/Macai-Pant-Black-Sapphire-Mens.png"
+            alt="Macai Pants Men's"></a>
+        <h5 class="h5-product-listing">ARC'TERYX</h5>
+        <h3 class="h3-product-listing">Macai Pants</h3>
+        <h4 class="h4-product-listing">$660</h4>
+      </div>
+    
+      <div class="block-product-listing">
+        <a href="productDescriptionM.html">
+          <img class="img-product-listing" src="../pictures/product-listing/Sabre-Pant-Relic-Mens.png"
+            alt="Sabre Pants Men's"></a>
+        <h5 class="h5-product-listing">ARC'TERYX</h5>
+        <h3 class="h3-product-listing">Sabre Pants</h3>
+        <h4 class="h4-product-listing">$600</h4>
+      </div>
+    
+    </section>
+    
+    <footer>
+    
+      <div class="block-footer-header">
+        <h1 class="header-footer">Quality right from the start.</h1>
+      </div>
+    
+      <div class="container-main-footer">
+    
+      <div class="block-logo-footer">
+        <img class="logo-footer" src="../pictures/logo.png" alt="logo">
+      </div>
+    
+        <div class="block-footer">
+          <h5 class="h5-footer">Connect with us</h1>
+            <h5>jungyeon.j.lee@gmail.com</h5>
+            <h5>nealsison22@gmail.com</h5>
+        </div>
+    
+        <div class="block-footer">
+          <h5 class="h5-footer">Learn about us</h1>
+            <h5>jungyeon.j.lee@gmail.com</h5>
+            <h5>nealsison22@gmail.com</h5>
+        </div>
+    
+        <div class="block-footer">
+          <h5 class="h5-footer">Our resources</h1>
+            <h5>jungyeon.j.lee@gmail.com</h5>
+            <h5>nealsison22@gmail.com</h5>
+        </div>
+    
+      </div>
+    
+      <div class="container-footer-email">
+        <h5 class="h5-footer">Stay in touch</h5>
+        <input type="text" name="Name" id="firstName" placeholder="Email"> </input>
+      </div>
+    
+      <div class="block-copyright-footer">
+          <h5>Copyright @ 2022 Jung-yeon Lee and Neal Sison.</h5>
+      </div>
+    
+    </footer>
+    
+    
 
     <section id="checkout-cart" class="element">
       <h3>Checkout Cart / Payment Form</h3>
       <nav>
-        <a class="button-nav" href="#products">Products</a>
-        <a class="button-nav" href="#brands">Brands</a>
-        <a class="button-nav" href="#technologies">Technologies</a>
-        <a class="button-nav" href="home-page">GORE-TEX</a>
-        <a class="button-nav" href="#search">Search</a>
-        <a class="button-nav" href="#login">Login</a>
-        <a class="button-nav" href="#checkout-cart">Checkout Cart</a>
+        <div class="container-nav-bar">
+          <div class="container-nav-left">
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+    
+            <div class="block-nav">
+              <a class="button-nav" href="productList.html">Shop</a>
+            </div>
+    
+            <div class="block-nav">
+              <a class="button-nav" href="../P1-Style_Guide_Template/index.html">Style Guide</a>
+            </div>
+    
+          </div>
+    
+          <div class="container-nav-right">
+    
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+    
+            <div class="block-shopping-cart">
+              <a href="checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+    
+          </div>
+    
+          <!-- Taken from ........ -->
+    
+        </div>
+    
+        <div class="container-mobile-nav-bar">
+          <div class="container-top-nav-bar">
+    
+            <div onclick="activateNav()" class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+    
+            <div class="brand-name">
+              <h1> <a href="../index.html"><img src="../pictures/logo.png" alt=""></a> </h1>
+            </div>
+    
+            <div class="block-shopping-cart">
+              <a href="checkoutCart.html">
+                <img class="shopping-cart" src="../pictures/shopping-cart.png" alt="">
+              </a>
+            </div>
+    
+    
+    
+          </div>
+          <div class="container-bottom-nav-bar">
+            <div class="block-nav">
+              <a class="button-nav" href="productList.html">Shop</a>
+            </div>
+    
+            <div class="block-nav">
+              <a class="button-nav" href="aboutUs.html">About us</a>
+            </div>
+    
+            <div class="search-bar">
+              <input type="text" name="Name" id="firstName" placeholder="Search"> </input>
+            </div>
+    
+          </div>
+        </div>
+    
       </nav>
+    
       <div class="main-container-checkout-cart">
+    
         <div class="main-block-checkout-cart">
+    
           <div class="container-checkout-cart">
             <div class="block-checkout-cart">
-              <img class="img-checkout-cart" src="product-listing-pictures/Alpha-SV-Jacket-Black-Womens.png"
+              <img class="img-checkout-cart" src="../pictures/product-listing/Alpha-SV-Jacket-Black-Womens.png"
                 alt="Women's Alpine Jacket">
             </div>
+    
             <div class="block-checkout-cart">
               <h5 class="h5-checkout-cart">ARC'TERYX</h5>
               <h3 class="h3-product-listing">Alpha SV Jacket</h3>
               <h4>$950</h4>
             </div>
+    
           </div>
+    
           <div class="container-checkout-cart">
             <div class="block-checkout-cart">
-              <img class="img-checkout-cart" src="product-listing-pictures/Beta-AR-Jacket-Lucent-Mens.png"
+              <img class="img-checkout-cart" src="../pictures/product-listing/Beta-AR-Jacket-Lucent-Mens.png"
                 alt="Men's Ski Pants">
             </div>
+    
             <div class="block-checkout-cart">
               <h5 class="h5-checkout-cart">ARC'TERYX</h5>
               <h3 class="h3-product-listing">Beta AR Jacket</h3>
               <h4>$750</h4>
             </div>
+    
           </div>
+    
         </div>
-        <div class="main-block-checkout-cart">
-          <form>
-            <h3 class="h3-shipping-address">Shipping Address</h3>
-            <label class="label-text-input" for="firstname">First name:</label>
-            <input type="text" id="first-name" name="first-name">
-            <label class="label-text-input" for="last-name">Last name:</label>
-            <input type="text" id="last-name" name="last-name"><br>
-            <label class="label-text-input" for="street-address">Street Address:</label>
-            <input type="text" id="street-address" name="street-address">
-            <h3>Shipping Method</h3>
-            <input type="radio" id="standard-shipping" name="shipping-method" value="Standard Shipping">
-            <label for="standard-shipping">Standard Shipping</label><br>
-            <input type="radio" id="express-shipping" name="shipping-method" value="Express Shipping">
-            <label for="express-shipping">Express Shipping</label><br>
-            <div>
-              <h4>Total Amount:</h4>
-              <h4>$1700</h4>
-            </div>
-            <button id="payment-button">Proceed To Payment</button>
-          </form>
-        </div>
+    
+        <form class="main-block-shipping-method">
+    
+          <h3 class="h3-shipping-method">Shipping Method</h3>
+          <input type="radio" id="standard-shipping" name="shipping-method" value="Standard Shipping">
+          <label for="standard-shipping">Standard Shipping</label><br>
+          <input type="radio" id="express-shipping" name="shipping-method" value="Express Shipping">
+          <label for="express-shipping">Express Shipping</label><br>
+          <div class="container-total-amount">
+            <h4>Total Amount:</h4>
+            <h4>$1700</h4>
+          </div>
+          <a class="payment-button" href="../html/payment.html">Proceed To Payment</a>
+    
+        </form>
+    
       </div>
-    </section>
-
-  </section>
+    
+      <footer>
+    
+        <div class="block-footer-header">
+          <h1 class="header-footer">Quality right from the start.</h1>
+        </div>
+    
+        <div class="container-main-footer">
+    
+          <div class="block-logo-footer">
+            <img class="logo-footer" src="../pictures/logo.png" alt="logo">
+          </div>
+    
+          <div class="block-footer">
+            <h5 class="h5-footer">Connect with us</h1>
+              <h5>jungyeon.j.lee@gmail.com</h5>
+              <h5>nealsison22@gmail.com</h5>
+          </div>
+    
+          <div class="block-footer">
+            <h5 class="h5-footer">Learn about us</h1>
+              <h5>jungyeon.j.lee@gmail.com</h5>
+              <h5>nealsison22@gmail.com</h5>
+          </div>
+    
+          <div class="block-footer">
+            <h5 class="h5-footer">Our resources</h1>
+              <h5>jungyeon.j.lee@gmail.com</h5>
+              <h5>nealsison22@gmail.com</h5>
+          </div>
+    
+        </div>
+    
+        <div class="container-footer-email">
+          <h5 class="h5-footer">Stay in touch</h5>
+          <input type="text" name="Name" id="firstName" placeholder="Email"> </input>
+        </div>
+    
+        <div class="block-copyright-footer">
+          <h5>Copyright @ 2022 Jung-yeon Lee and Neal Sison.</h5>
+        </div>
+    
+      </footer>
   <!-- // COMBINED ELEMENTS SECTION -->
 
 
@@ -360,7 +786,8 @@
   </section>
 
 
-
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="../script.js">  </script>
 </body>
 
 </html>
