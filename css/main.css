@@ -421,7 +421,8 @@ img {
 }
 
 .img-as-a-link {
-  width: 20vw;
+  margin-top: 8%;
+  width: 100%;
 }
 
 /* 
