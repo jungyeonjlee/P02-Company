@@ -15,20 +15,12 @@ img {
   width: 100%;
 }
 
-.block-filter:focus {
-  stroke-width: 2px;  
-  stroke: #F5BF6C;
-}
-
-.block-filter:hover {
-  stroke-width: 10px;  
-  stroke: #d8d8d8;
-  stroke: #F5BF6C;
-}
 
 a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 form{
   background-color: transparent;
@@ -301,7 +293,6 @@ form{
 .main-container-payment {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   /* flex-direction: column; */
   margin-top: 64px;
   margin-right: 12%;
@@ -314,6 +305,7 @@ form{
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .block-name {

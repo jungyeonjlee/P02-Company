@@ -78,6 +78,17 @@ body {
   cursor: pointer;
 }
 
+.block-filter:focus {
+  stroke-width: 2px;  
+  stroke: #F5BF6C;
+}
+
+.block-filter:hover {
+  stroke-width: 2px;  
+  stroke: #d8d8d8;
+  box-shadow: 10px 10px 10px rgb(220, 220, 220);
+}
+
 .img-filter {
   width: 100%;
 
@@ -104,15 +115,7 @@ body {
   border-style: solid; */
 }
 
-.block-filter:focus {
-  stroke-width: 2px;  
-  stroke: #F5BF6C;
-}
 
-.block-filter:hover {
-  stroke-width: 2px;  
-  stroke: #d8d8d8;
-}
 
 .img-product-listing:hover {
   opacity: 0.9;
