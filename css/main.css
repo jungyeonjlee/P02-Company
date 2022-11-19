@@ -569,6 +569,11 @@ background-color: #F5BF6C;
     min-width: 4rem;
   }
 
+  .h1-header-home-page {
+    font-size: 3.5em;
+    margin-bottom: 2rem;
+  }
+
 }
 
 

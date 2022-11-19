@@ -15,6 +15,16 @@ img {
   width: 100%;
 }
 
+.block-filter:focus {
+  stroke-width: 2px;  
+  stroke: #F5BF6C;
+}
+
+.block-filter:hover {
+  stroke-width: 10px;  
+  stroke: #d8d8d8;
+  stroke: #F5BF6C;
+}
 
 a {
   display: flex;
@@ -231,6 +241,8 @@ form{
   justify-content: center;
   width: 5.5%;
   padding: 2%;
+  min-width: 4.6rem;
+
 }
 
 .description {
@@ -379,6 +391,7 @@ form{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .block-product-description-details {
@@ -513,7 +526,7 @@ form{
   display: flex;
   margin-left: 4%;
   margin-right: 4%;
-  margin-top: 12%;
+  margin-top: 3%;
   gap: 12%;
 }
 
@@ -669,8 +682,8 @@ footer {
  .block-filter{
    margin-top: 2%;
    width:11.66%;
-   min-width: 4rem;
- }
+   min-width: 4.6rem;
+  }
 
  .block-filter-button {
   width: 32.3333%;
@@ -749,7 +762,6 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 64px;
-    padding: 64px;
     /* justify-content: space-between; */
     /* background-color: #01020e; */
   }
@@ -774,6 +786,8 @@ footer {
   .block-home-text{
     width: 100%;
     order: 1;
+    margin-left: 4%;
+    margin-right: 3%
     
   }
 
